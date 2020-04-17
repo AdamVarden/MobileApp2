@@ -38,6 +38,7 @@ public class PlayerHealth : MonoBehaviour
     }
 
     // use the triggerEnter method to see if it gets hit by grunt
+    [Obsolete]
     private void OnTriggerEnter2D(Collider2D whatHitMe)
     {
         //When hit by the grunt it reduces health
